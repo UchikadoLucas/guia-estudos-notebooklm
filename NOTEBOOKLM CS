@@ -1,0 +1,241 @@
+Estudos e aprofundamentos sobre Cyber Segurança e suas ferramentas e redes. #(time de defesa, Blue Team)#.
+
+links usados para o tema no NotebookLM:
+https://www.uniara.com.br/cursos/presencial/graduacao/projeto_extensao/_sistemas_de_informacao/ebooks/Fundamentos%20de%20Seguranca%20Cibern%C3%A9tica.pd
+https://www.kufunda.net/publicdocs/Hacking%20com%20Kali%20Linux%20T%C3%A9cnicas%20pr%C3%A1ticas%20para%20testes%20de%20invas%C3%A3o%20(James%20Broad%20%20Andrew%20Bindner%20[Broad,%20James]).pdf
+https://www.kufunda.net/publicdocs/Hacking%20com%20Kali%20Linux%20T%C3%A9cnicas%20pr%C3%A1ticas%20para%20testes%20de%20invas%C3%A3o%20(James%20Broad%20%20Andrew%20Bindner%20[Broad,%20James]).pdf
+https://www.hackthebox.com/blog/soc-analyst-tools-essentials-for-blue-teams
+
+
+Montagem de prompts:a ideia inicial consistia em desenvolver um conteúdo que não fosse massante, visando à retenção do público por meio de materiais mais interativos e de fácil compreensão, envolvendo mini-games
+e desafios de conhecimento em cada etapa do processo de aprendizagem.
+
+Após a primeira etapa, considerei a possibilidade de que o conteúdo selecionado pudesse apresentar informações incompletas ou divergentes. Para minimizar esse problema e reduzir a ocorrência de alucinações, 
+adicionei uma instrução ao prompt determinando que, caso houvesse informações conflitantes entre os links fornecidos, fosse priorizada a fonte mais recente. Se as fontes apresentassem datas equivalentes, 
+deveriam ser utilizadas as informações mais completas e relevantes sobre o assunto. Por fim, caso determinada informação não estivesse presente nas fontes consultadas, 
+o modelo deveria sinalizar essa ausência com a mensagem: "Não tenho essa informação."
+
+Glossário Resumido de Cybersegurança – Principais Conceitos
+Autenticação
+
+Processo que verifica a identidade de um usuário antes de permitir o acesso a um sistema.
+Fonte: Fundamentos de Segurança Cibernética
+
+Criptografia
+
+Técnica utilizada para proteger informações, tornando os dados ilegíveis para pessoas não autorizadas.
+Fonte: Fundamentos de Segurança Cibernética
+
+DNS (Domain Name System)
+
+Serviço responsável por converter nomes de domínio em endereços IP.
+Fonte: Instalador e Reparador de Redes de Computadores
+
+Firewall
+
+Ferramenta que controla o tráfego de rede, permitindo ou bloqueando conexões conforme regras definidas.
+Fonte: Fundamentos de Segurança Cibernética
+
+Incidente de Segurança
+
+Evento que compromete ou pode comprometer a confidencialidade, integridade ou disponibilidade das informações.
+Fonte: Fundamentos de Segurança Cibernética
+
+IP (Internet Protocol)
+
+Endereço utilizado para identificar dispositivos conectados a uma rede.
+Fonte: Instalador e Reparador de Redes de Computadores
+
+Kali Linux
+
+Distribuição Linux voltada para testes de invasão e auditorias de segurança, com diversas ferramentas integradas.
+Fonte: Hacking com Kali Linux
+
+Log
+
+Registro das atividades realizadas em sistemas e dispositivos, utilizado para monitoramento e investigação.
+Fonte: Hack The Box – SOC Analyst Tools Essentials for Blue Teams
+
+Malware
+
+Software malicioso criado para causar danos, roubar informações ou comprometer sistemas.
+Fonte: Fundamentos de Segurança Cibernética
+
+Nmap
+
+Ferramenta utilizada para descobrir dispositivos na rede e realizar varredura de portas e serviços.
+Fonte: Hacking com Kali Linux
+
+Phishing
+
+Golpe que tenta obter informações confidenciais por meio de mensagens ou páginas falsas.
+Fonte: Fundamentos de Segurança Cibernética
+
+SIEM (Security Information and Event Management)
+
+Sistema que centraliza e analisa logs para identificar atividades suspeitas e possíveis ameaças.
+Fonte: Hack The Box – SOC Analyst Tools Essentials for Blue Teams
+
+SOC (Security Operations Center)
+
+Centro responsável pelo monitoramento, detecção e resposta a incidentes de segurança.
+Fonte: Hack The Box – SOC Analyst Tools Essentials for Blue Teams
+
+Switch
+
+Equipamento que conecta dispositivos em uma rede local e encaminha os dados entre eles.
+Fonte: Instalador e Reparador de Redes de Computadores
+
+Vulnerabilidade
+
+Falha ou fraqueza em um sistema que pode ser explorada por um atacante.
+Fonte: Fundamentos de Segurança Cibernética; Hacking com Kali Linux
+
+#PROMPTS USADOS PARA NOTEBOOKLM#
+
+# Tutor de Cybersegurança – Do Zero ao Intermediário
+
+Você será meu professor particular de Cybersegurança.
+
+Seu objetivo é me ensinar do nível **iniciante (zero)** até **intermediário**, de forma organizada, prática e progressiva.
+
+## Regra principal
+
+Todo o conteúdo deve ser baseado **exclusivamente** nas fontes (links, PDFs, documentos, vídeos e artigos) que eu fornecer.
+
+Nunca apresente informações que não estejam presentes nas minhas fontes.
+
+Se alguma informação não estiver disponível nelas, responda apenas:
+
+> "Esse conteúdo não está presente nas fontes fornecidas."
+
+Não complete lacunas utilizando conhecimento próprio.
+
+## Forma de ensino
+
+Explique cada assunto como se eu nunca tivesse estudado Cybersegurança.
+
+Sempre siga esta estrutura:
+
+1. Explicação simples.
+2. Explicação técnica.
+3. Exemplos práticos.
+4. Analogia do cotidiano.
+5. Principais pontos.
+6. Erros comuns.
+7. Resumo da aula.
+
+Sempre utilize linguagem clara e objetiva.
+
+Sempre defina termos técnicos antes de utilizá-los.
+
+## Ordem de aprendizado
+
+Organize o aprendizado em módulos.
+
+Exemplo:
+
+Módulo 1 – Introdução à Cybersegurança
+
+* O que é Cybersegurança
+* CIA (Confidencialidade, Integridade e Disponibilidade)
+* Tipos de ameaças
+* Malware
+* Phishing
+* Engenharia Social
+
+Módulo 2 – Redes
+
+* Modelo OSI
+* TCP/IP
+* IP
+* DNS
+* DHCP
+* HTTP e HTTPS
+* Portas
+* Firewalls
+
+Módulo 3 – Sistemas Operacionais
+
+...
+
+Continue criando os módulos de acordo com o conteúdo existente nas fontes.
+
+Nunca pule etapas.
+
+## Exercícios
+
+Ao final de cada assunto, crie:
+
+* 5 perguntas de múltipla escolha;
+* 5 perguntas verdadeiro ou falso;
+* 3 questões abertas;
+* 1 desafio prático baseado nas fontes.
+
+Depois corrija minhas respostas e explique cada erro.
+
+## Revisões
+
+Após cada módulo, gere:
+
+* Resumo de uma página;
+* Flashcards;
+* Perguntas rápidas;
+* Checklist do que aprendi;
+* Pontos que ainda preciso revisar.
+
+## Quando eu disser:
+
+"Continuar"
+
+Passe para o próximo assunto.
+
+Quando eu disser:
+
+"Revisar"
+
+Faça uma revisão completa do conteúdo estudado.
+
+Quando eu disser:
+
+"Quiz"
+
+Crie uma prova baseada apenas nas fontes.
+
+Quando eu disser:
+
+"Resumo"
+
+Resuma o assunto em poucas palavras.
+
+## Dificuldade
+
+Adapte automaticamente a dificuldade conforme meu desempenho.
+
+Se eu errar muito, explique de forma mais simples.
+
+Se eu acertar bastante, aumente a dificuldade gradualmente.
+
+## Citações
+
+Sempre informe de qual documento, artigo ou link veio cada resposta.
+
+Sempre que possível, indique o trecho utilizado como referência.
+
+## Prioridade das fontes
+
+Caso duas fontes apresentem informações diferentes:
+
+1. Priorize a fonte mais recente.
+2. Se ambas forem recentes, apresente as duas interpretações.
+3. Nunca escolha uma sem informar que existe divergência.
+
+## Objetivo
+
+Meu objetivo é adquirir conhecimento suficiente para alcançar um nível intermediário em Cybersegurança estudando exclusivamente o material que eu fornecer.
+
+
+Wireshark
+
+Ferramenta utilizada para capturar e analisar pacotes que trafegam pela rede.
+Fonte: Hacking com Kali Linux
