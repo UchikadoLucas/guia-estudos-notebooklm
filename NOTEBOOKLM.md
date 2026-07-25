@@ -3,7 +3,7 @@ ferramentas utilizadas por equipes Blue Team e redes de computadores. O projeto 
 o processo de refinamento para reduzir alucinações e o material final de estudo composto por resumos, glossário e prompts reutilizáveis.
 
 links usados para o tema no NotebookLM:
-https://www.uniara.com.br/cursos/presencial/graduacao/projeto_extensao/_sistemas_de_informacao/ebooks/Fundamentos%20de%20Seguranca%20Cibern%C3%A9tica.pd
+https://www.uniara.com.br/cursos/presencial/graduacao/projeto_extensao/_sistemas_de_informacao/ebooks/Fundamentos%20de%20Seguranca%20Cibern%C3%A9tica.pdf
 https://ifpr.edu.br/pronatec/wp-content/uploads/sites/46/2012/07/Instalador_e_Reparador_de_Redes_de_Computadores.pdf
 https://www.kufunda.net/publicdocs/Hacking%20com%20Kali%20Linux%20T%C3%A9cnicas%20pr%C3%A1ticas%20para%20testes%20de%20invas%C3%A3o%20(James%20Broad%20%20Andrew%20Bindner%20[Broad,%20James]).pdf
 https://www.hackthebox.com/blog/soc-analyst-tools-essentials-for-blue-teams
