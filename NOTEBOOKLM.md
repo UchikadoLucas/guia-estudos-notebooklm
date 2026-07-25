@@ -1,8 +1,8 @@
-Este repositório documenta a construção de um caderno temático utilizando o NotebookLM sobre Cybersegurança, com foco em conceitos fundamentais, 
-ferramentas utilizadas por equipes Blue Team e redes de computadores. O projeto apresenta a curadoria das fontes, a evolução dos prompts empregados, 
-o processo de refinamento para reduzir alucinações e o material final de estudo composto por resumos, glossário e prompts reutilizáveis.
+# Este repositório documenta a construção de um caderno temático utilizando o NotebookLM sobre Cybersegurança, com foco em conceitos fundamentais, 
+# ferramentas utilizadas por equipes Blue Team e redes de computadores. O projeto apresenta a curadoria das fontes, a evolução dos prompts empregados, 
+# o processo de refinamento para reduzir alucinações e o material final de estudo composto por resumos, glossário e prompts reutilizáveis. 
 
-links usados para o tema no NotebookLM:
+# Links usados para o tema no NotebookLM:
 https://www.uniara.com.br/cursos/presencial/graduacao/projeto_extensao/_sistemas_de_informacao/ebooks/Fundamentos%20de%20Seguranca%20Cibern%C3%A9tica.pdf
 https://ifpr.edu.br/pronatec/wp-content/uploads/sites/46/2012/07/Instalador_e_Reparador_de_Redes_de_Computadores.pdf
 https://www.kufunda.net/publicdocs/Hacking%20com%20Kali%20Linux%20T%C3%A9cnicas%20pr%C3%A1ticas%20para%20testes%20de%20invas%C3%A3o%20(James%20Broad%20%20Andrew%20Bindner%20[Broad,%20James]).pdf
@@ -17,7 +17,7 @@ adicionei uma instrução ao prompt determinando que, caso houvesse informaçõe
 deveriam ser utilizadas as informações mais completas e relevantes sobre o assunto. Por fim, caso determinada informação não estivesse presente nas fontes consultadas, 
 o modelo deveria sinalizar essa ausência com a mensagem: "Não tenho essa informação."
 
-Glossário Resumido de Cybersegurança – Principais Conceitos
+# Glossário Resumido de Cybersegurança – Principais Conceitos
 Autenticação
 
 Processo que verifica a identidade de um usuário antes de permitir o acesso a um sistema.
@@ -244,6 +244,6 @@ Fonte: Hacking com Kali Linux
 
  Aprendizados com o Projeto
 
-Durante o desenvolvimento deste projeto foi possível compreender a importância da engenharia de prompts para reduzir respostas incorretas
-e melhorar a qualidade do material produzido pelo NotebookLM. 
-Também foi observado que a utilização de fontes confiáveis e a definição clara de regras permitem gerar conteúdos mais consistentes e adequados ao estudo.
+ # Durante o desenvolvimento deste projeto foi possível compreender a importância da engenharia de prompts para reduzir respostas incorretas
+ # e melhorar a qualidade do material produzido pelo NotebookLM. 
+ # Também foi observado que a utilização de fontes confiáveis e a definição clara de regras permitem gerar conteúdos mais consistentes e adequados ao estudo.
