@@ -1,6 +1,6 @@
 # Este repositório documenta a construção de um caderno temático utilizando o NotebookLM sobre Cybersegurança, com foco em conceitos fundamentais, 
-# ferramentas utilizadas por equipes Blue Team e redes de computadores. O projeto apresenta a curadoria das fontes, a evolução dos prompts empregados, 
-# o processo de refinamento para reduzir alucinações e o material final de estudo composto por resumos, glossário e prompts reutilizáveis. 
+ ferramentas utilizadas por equipes Blue Team e redes de computadores. O projeto apresenta a curadoria das fontes, a evolução dos prompts empregados, 
+ o processo de refinamento para reduzir alucinações e o material final de estudo composto por resumos, glossário e prompts reutilizáveis. 
 
 # Links usados para o tema no NotebookLM:
 https://www.uniara.com.br/cursos/presencial/graduacao/projeto_extensao/_sistemas_de_informacao/ebooks/Fundamentos%20de%20Seguranca%20Cibern%C3%A9tica.pdf
